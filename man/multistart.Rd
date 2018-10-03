@@ -17,8 +17,8 @@ multistart(adjmat, wtvec, stoch = T)
 For an analysis of each potential starting node in turn, generates a table of number of nodes infected by time detected at each potential sampling node, with rows being starting node and columns being sampling node - for one simulation.  Each node can be weighted with a relative likelihood of spread to that node.
 }
 \examples{
-allstartf.wt(adjmat=Amat,wtvec= ___)
-allstartf.wt(adjmat=sAmat,wtvec=____, stoch=T)
+multistart(adjmat=Amat,wtvec= ___)
+multistart(adjmat=sAmat,wtvec=____, stoch=T)
 }
 \keyword{prioritization}
 \keyword{sampling}
