@@ -10,8 +10,8 @@
 #' @keywords prioritization sampling
 #' @export
 #' @examples
-#' allstartf.wt(adjmat=Amat,wtvec= ___)
-#' allstartf.wt(adjmat=sAmat,wtvec=____, stoch=T)
+#' multistart(adjmat=Amat,wtvec= ___)
+#' multistart(adjmat=sAmat,wtvec=____, stoch=T)
 
 # to do - GT, especially for weighted components
 # to do - consider only stochastic 
