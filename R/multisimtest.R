@@ -10,8 +10,7 @@
 #' @keywords prioritization sampling
 #' @export
 #' @examples
-#' multisimtest(adjmat=Amat, wtvec=__, nsim=1)  # multiple sims not needed because not stochastic - BUT, yes, now should be stochastic
-#' multisimtest(adjmat=sAmat, wtvec=__, stoch=T, nsim=10)
+#' multisimtest(adjmat=sAmat, wtvec=1, stoch=T, nsim=10)
 
 
 # to do - GT
