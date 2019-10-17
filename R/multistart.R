@@ -29,5 +29,5 @@ multistart <- function(adjmat, wtvec, stoch=T){
 
 alloutmat
 }
-
+#
 
